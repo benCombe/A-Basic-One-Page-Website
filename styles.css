@@ -1,0 +1,134 @@
+        
+        body{
+            /*background-image: url("images\\purplegalaxy.jpg");*/
+            background-color: #982ec5;
+        }
+        #loginLink{
+            float: right;
+            color: white;
+	    text-decoration: none;
+        }
+	.logOutb{
+	   cursor: pointer;
+	}
+
+        #header{
+            background-color: #8a2be2;
+            color: rgb(221, 212, 212);
+            opacity: 70%;
+            width: 85%;
+	    height: 2; 
+        }
+	#account{
+		float: right;
+	}
+
+	#loginErr{
+		color: red;
+		font-size: small;
+	}
+
+        /*
+        #homeLink:hover{
+            border: 1px solid white;
+        }
+        #aboutLink:hover{
+            border: 1px solid white;
+        }
+        #courseLink:hover{
+            border: 1px solid white;
+        }
+        #cvLink:hover{
+            border: 1px solid white;
+        }
+        */
+	
+	#proj{
+		border: 2px double black;
+		/*padding: 8;*/
+		width: 80%;
+	}
+	#proj td{
+		border: 1px solid black;
+	}
+	.assLink{
+		font-size: larger;
+	}
+	.assCol{
+		padding-left: 8;
+	}
+	
+	.content{
+		font-size: large;
+	}
+        td.menuLink:hover{
+            background-color: #d2d1d3; 
+            cursor: pointer;
+        }
+
+        td.menuLink{
+            text-align: center;
+            font-size: larger;
+            color: azure;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+
+        .center{
+            margin-top: 20px;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+        }
+
+        #app{
+            
+            width: 85%;
+            background-color: antiquewhite;
+            color: rgb(0, 0, 0);
+            border: 5px double black;
+            /*text-align: center;*/
+
+        }
+
+        #signup{
+            border: 2 solid black;
+        }
+        #cpwErr{
+            color:rgb(171, 55, 55);
+        }
+
+        .courseTable{
+            border: 1px solid rgb(0, 0, 0);
+            border-spacing: 0px;
+        }
+
+        .courseTable th{
+            background-color: rgb(171, 55, 55);
+            border: 1px solid rgb(0, 0, 0);
+            color: white;
+            font-size: large;
+        }
+        .courseTable td{
+            border: 1px solid black;
+            font-size: small;
+            
+        }
+        .courseTable td.subh{
+            text-align: center;
+            font-size: medium;
+            font-stretch: expanded;
+            
+        }
+
+
+@media screen and (max-width: 600px) {
+
+	td.menuLink {font-size: medium;}
+	.courseTable th{font-size: small;}
+
+}
+@media screen and (max-width: 525px) {
+
+	td.menuLink {font-size: small;}
+	.courseTable th{font-size: smaller;}
+
+}
